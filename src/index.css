@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 120 99% 44%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 120 99% 44%;
+
+    --radius: 0.75rem;
+
+    /* Premium Vitally Brand Colors */
+    --vitally-green: 120 99% 44%;
+    --vitally-dark: 0 0% 4%;
+    --vitally-gray: 0 0% 20%;
+    --vitally-light: 0 0% 98%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 4%) 0%, hsl(0 0% 8%) 50%, hsl(120 20% 10%) 100%);
+    --gradient-spotlight: radial-gradient(circle at 50% 50%, hsl(120 99% 44% / 0.15) 0%, transparent 70%);
+    --gradient-accent: linear-gradient(135deg, hsl(120 99% 44%) 0%, hsl(130 99% 40%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 8% / 0.8) 0%, hsl(0 0% 6% / 0.9) 100%);
+
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(120 99% 44% / 0.3);
+    --shadow-premium: 0 20px 60px -15px hsl(0 0% 0% / 0.8);
+    --shadow-card: 0 10px 30px -5px hsl(0 0% 0% / 0.5);
+
+    /* Transitions */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-accent);
+  }
+
+  .glass-card {
+    @apply backdrop-blur-xl bg-card/40 border-border/50;
+  }
+
+  .spotlight {
+    position: relative;
+  }
+
+  .spotlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-spotlight);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+
+  .spotlight:hover::before {
+    opacity: 1;
+  }
+}
