@@ -187,8 +187,8 @@ const DigitalSerenity = ({ backgroundImage }: DigitalSerenityProps) => {
         <div className="relative z-10 min-h-[70vh] sm:min-h-screen flex flex-col justify-between items-center px-6 py-8 sm:py-12 md:py-20">
           <div className="text-center">
             <h2 className="text-xs sm:text-sm font-mono font-light text-muted-foreground uppercase tracking-[0.2em] opacity-80">
-              <span className="word-animate" data-delay="0">Excelência</span>
-              <span className="word-animate" data-delay="300">Empreendedora.</span>
+              <span className="word-animate" data-delay="0">PERFORMANCE</span>
+              <span className="word-animate" data-delay="300">EM CADA DETALHE.</span>
             </h2>
             <div className="mt-4 w-12 sm:w-16 h-px bg-gradient-to-r from-transparent via-primary to-transparent opacity-30 mx-auto"></div>
           </div>
@@ -196,21 +196,21 @@ const DigitalSerenity = ({ backgroundImage }: DigitalSerenityProps) => {
           <div className="text-center max-w-5xl mx-auto relative">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extralight leading-tight tracking-tight text-foreground text-decoration-animate">
               <div className="mb-4 md:mb-6">
-                <span className="word-animate" data-delay="700">Eleve</span>
-                <span className="word-animate" data-delay="850">o</span>
-                <span className="word-animate" data-delay="850">seu</span>
-                <span className="word-animate text-[hsl(var(--vitally-green))]" data-delay="1000">empreendimento</span>
+                <span className="word-animate" data-delay="700">Deixe de </span>
+                <span className="word-animate" data-delay="850">competir</span>
+                <span className="word-animate" data-delay="850">por preço.</span>
+                <span className="word-animate text-[hsl(var(--vitally-green))]" data-delay="1000">Lidere por valor.</span>
               </div>
               <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-thin text-muted-foreground leading-relaxed tracking-wide">
                 <span className="word-animate" data-delay="1400">equipamentos</span>
-                <span className="word-animate" data-delay="1550">premium</span>
-                <span className="word-animate" data-delay="1700">que</span>
-                <span className="word-animate" data-delay="1850">transformam</span>
-                <span className="word-animate" data-delay="2000">seu</span>
-                <span className="word-animate" data-delay="2150">espaço</span>
-                <span className="word-animate" data-delay="2300">em</span>
-                <span className="word-animate" data-delay="2450">referência</span>
-                <span className="word-animate" data-delay="2600">nacional.</span>
+                <span className="word-animate" data-delay="1550">com</span>
+                <span className="word-animate" data-delay="1700">design e biomecânica</span>
+                <span className="word-animate" data-delay="1850">que justificam</span>
+                <span className="word-animate" data-delay="2000">seu ticket-médio</span>
+                <span className="word-animate" data-delay="2150">e</span>
+                <span className="word-animate" data-delay="2300">fidelizam</span>
+                <span className="word-animate" data-delay="2450">seus melhores</span>
+                <span className="word-animate" data-delay="2600">alunos.</span>
               </div>
             </h1>
             <div className="absolute -left-6 sm:-left-8 top-1/2 transform -translate-y-1/2 w-3 sm:w-4 h-px bg-primary opacity-0" style={{ animation: 'word-appear 1s ease-out forwards', animationDelay: '3.2s' }}></div>
