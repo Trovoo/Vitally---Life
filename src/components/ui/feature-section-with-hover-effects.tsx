@@ -14,43 +14,43 @@ import {
 export function FeaturesSectionWithHoverEffects() {
   const features = [
     {
-      title: "Desenhado para o seu Negócio",
-      description: "Feito para empreendedores, gestores e visionários. Equipamentos que valorizam seu espaço e impulsionam seu faturamento.",
+      title: "Feito para o Dono de Academia",
+      description: "Projetado para quem entende de investimento. Nossos equipamentos não são custos, são ativos que geram lucro, justificam seu ticket-médio e param de dar manutenção.",
       icon: <IconTerminal2 />,
     },
     {
-      title: "Investimento com Retorno Rápido",
-      description: "O melhor retorno sobre o investimento (ROI) do mercado. Valorize seu metro quadrado com equipamentos que atraem e retêm clientes.",
+      title: "ROI (Retorno Sobre Investimento)",
+      description: "O melhor ROI do mercado. Valorize seu m² com equipamentos premium que atraem e retêm clientes, e economize milhares de reais em manutenção e reposição.",
       icon: <IconEaseInOut />,
     },
     {
-      title: "Durabilidade para Alto Fluxo",
-      description: "Arquitetura robusta para academias de alto fluxo. Menos manutenção, mais tempo de uso e maior lucratividade para seu negócio.",
+      title: "Durabilidade de +20 Anos",
+      description: "Arquitetura robusta feita para durar décadas, não meses. Menos manutenção, zero equipamento parado e maior lucratividade para o seu negócio.",
       icon: <IconCurrencyDollar />,
     },
     {
-      title: "Soluções que Escalam com Você",
-      description: "Nossas linhas de produtos acompanham o crescimento do seu empreendimento, da primeira unidade à expansão da sua rede.",
+      title: "Seu Parceiro na Expansão",
+      description: "Nossas linhas de produtos acompanham o crescimento do seu negócio, garantindo o mesmo padrão de excelência da sua primeira unidade até a expansão da sua rede de academias.",
       icon: <IconCloud />,
     },
     {
-      title: "Consultoria Especializada",
-      description: "Atendimento contínuo — um parceiro de negócio, não apenas um fornecedor. Ajudamos você a otimizar o layout e o financeiro.",
+      title: "Projeto 3D e Consultoria",
+      description: "Somos seu parceiro estratégico. Nossos especialistas criam o projeto 3D do seu estúdio, otimizando o m² e o fluxo de alunos para garantir o melhor investimento.",
       icon: <IconRouteAltLeft />,
     },
     {
-      title: "A Solução Completa",
-      description: "Inovação, design e personalização para que seu empreendimento tenha uma identidade visual única e se destaque da concorrência.",
+      title: "Lidere contra o Low Cost",
+      description: "Saia da guerra de preços. Nosso design premium e biomecânica superior criam uma identidade única que permite seu estúdio liderar por valor, não por preço.",
       icon: <IconHelp />,
     },
     {
-      title: "Garantia de Satisfação",
-      description: "Confiamos em nosso produto. Seus clientes sentirão a diferença na qualidade, e você sentirá o impacto positivo no seu negócio.",
+      title: "Biomecânica que Fideliza",
+      description: "Seus clientes e personais sentirão a diferença. Nossos laudos garantem o movimento correto que gera resultados reais e previne lesões. Aluno com resultado não cancela.",
       icon: <IconAdjustmentsBolt />,
     },
     {
-      title: "E tudo mais",
-      description: "Personalização e evolução constante conforme sua necessidade.",
+      title: "Prazo de Entrega Garantido",
+      description: "Com 41 anos de fabricação própria, garantimos seu pedido em 35 dias. O seu cronograma de inauguração é o nosso compromisso. Zero atrasos.",
       icon: <IconHeart />,
     },
   ];

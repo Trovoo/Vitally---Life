@@ -70,49 +70,49 @@ export const AboutUsSection = () => {
     {
       icon: <Dumbbell className="w-6 h-6" />,
       secondaryIcon: <Sparkles className="w-4 h-4 absolute -top-1 -right-1 text-primary" />,
-      title: "Equipamentos Premium",
+      title: "O Padrão Vitally",
       description:
-        "Linha exclusiva de equipamentos high ticket com design sofisticado e tecnologia de ponta, desenvolvidos especificamente para espaços de alto padrão.",
+        "Equipamentos com engenharia de ponta e um design imponente que eleva a percepção de valor do seu estúdio e atrai o cliente premium que paga mais.",
       position: "left",
     },
     {
       icon: <ClipboardCheck className="w-6 h-6" />,
       secondaryIcon: <CheckCircle className="w-4 h-4 absolute -top-1 -right-1 text-primary" />,
-      title: "Laudo Biomecânico",
+      title: "Engenharia que Retém Alunos",
       description:
-        "Todos os equipamentos incluem laudo biomecânico completo, garantindo segurança e eficácia nos movimentos, fundamentais para profissionais.",
+        "Nossas máquinas têm laudo biomecânico que garante o movimento correto. Isso significa menos lesões e mais resultados para seus alunos – os dois maiores motivos de fidelização.",
       position: "left",
     },
     {
       icon: <Users className="w-6 h-6" />,
       secondaryIcon: <Star className="w-4 h-4 absolute -top-1 -right-1 text-primary" />,
-      title: "Solução Completa",
+      title: "Pare de competir por preço",
       description:
-        "Mais que equipamentos, oferecemos uma solução completa para o seu negócio que desejam se destacar e atrair novos clientes com infraestrutura moderna e diferenciada.",
+        "Oferecemos o projeto completo para seu negócio liderar por valor. Da consultoria de layout ao equipamento, criamos o estúdio que justifica um ticket-médio mais alto.",
       position: "left",
     },
     {
       icon: <Wrench className="w-6 h-6" />,
       secondaryIcon: <Sparkles className="w-4 h-4 absolute -top-1 -right-1 text-primary" />,
-      title: "Instalação Profissional",
+      title: "Montagem sem dor de cabeça",
       description:
-        "Equipe especializada realiza instalação completa e customizada, adaptando-se perfeitamente aos espaços com máxima eficiência.",
+        "Nossa equipe de fábrica cuida de tudo. A instalação é feita com agilidade e precisão técnica, garantindo que seu equipamento funcione perfeitamente desde o primeiro dia de inauguração.",
       position: "right",
     },
     {
       icon: <LineChart className="w-6 h-6" />,
       secondaryIcon: <CheckCircle className="w-4 h-4 absolute -top-1 -right-1 text-primary" />,
-      title: "Projeto 3D Personalizado",
+      title: "Veja antes de investir",
       description:
-        "Desenvolvemos projeto 3D completo do layout, permitindo visualização realista de como os equipamentos transformarão o ambiente antes da implementação.",
+        "Desenvolvemos o projeto 3D completo do seu estúdio, otimizando seu m² e permitindo que você veja exatamente como seu espaço será transformado. Zero surpresas no seu investimento.",
       position: "right",
     },
     {
       icon: <ShieldCheck className="w-6 h-6" />,
       secondaryIcon: <Star className="w-4 h-4 absolute -top-1 -right-1 text-primary" />,
-      title: "Garantia e Suporte",
+      title: "O investimento que dura décadas",
       description:
-        "Garantia estendida e suporte técnico contínuo asseguram durabilidade e funcionamento perfeito dos equipamentos por anos, maximizando o investimento da instituição.",
+        "Mais que garantia, oferecemos uma parceria. Com 41 anos de indústria e fabricação própria, garantimos a durabilidade e o suporte rápido para seu equipamento render por décadas, não por meses.",
       position: "right",
     },
   ]
@@ -179,9 +179,9 @@ export const AboutUsSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <Zap className="w-4 h-4" />
-            CONHEÇA NOSSA HISTÓRIA
+            Mais que equipamento. Um ativo para seu negócio.
           </motion.span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4 text-center">O que é a Vitally</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4 text-center">Somos a Vitally</h2>
           <motion.div
             className="w-24 h-1 bg-primary"
             initial={{ width: 0 }}
@@ -191,9 +191,7 @@ export const AboutUsSection = () => {
         </motion.div>
 
         <motion.p className="text-center max-w-2xl mx-auto mb-8 sm:mb-16 text-sm sm:text-base text-muted-foreground" variants={itemVariants}>
-          Somos especialistas em equipamentos de academia para o seu negócio. 
-          Combinamos design premium, tecnologia avançada e segurança biomecânica para modernizar locais
-           e atrair novos clientes com infraestrutura diferenciada.
+           Há 41 anos, ajudamos donos de academia a saírem da guerra de preços. Combinamos engenharia biomecânica (que fideliza alunos) com design premium (que justifica seu ticket-médio) e uma robustez lendária que protege seu investimento por décadas.
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 relative">
@@ -364,8 +362,8 @@ export const AboutUsSection = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
         >
           <div className="flex-1">
-            <h3 className="text-xl sm:text-2xl font-medium mb-2">Pronto para modernizar seu empreendimento?</h3>
-            <p className="text-muted-foreground">Vamos criar juntos um espaço que inspira e atrai alunos.</p>
+            <h3 className="text-xl sm:text-2xl font-medium mb-2">Pronto para se tornar a referência da sua região?</h3>
+            <p className="text-muted-foreground">Vamos criar o projeto com a biomecânica e o design que atraem e retêm os alunos de alto valor.</p>
           </div>
           <motion.button
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg flex items-center gap-2 font-medium transition-colors"

@@ -36,11 +36,10 @@ export const IntroSection = () => {
           className="text-center mb-8 sm:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-primary via-primary to-accent bg-clip-text text-transparent">
-            A Solução Completa em Fitness para  Condomínio - Hotel - Construtora - Clube - Resort
+            A Solução Definitiva em Performance para Academias e Stúdios
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Com mais de 40 anos de tradição, a Vitally entende as necessidades únicas de empreendimentos como condomínios, hotéis, clubes e resorts.
-            Nossos equipamentos combinam durabilidade para alto tráfego, segurança comprovada por laudo biomecânico e facilidade de uso para usuários de todos os níveis (sejam moradores, hóspedes ou associados). Da sala de musculação ao ginásio poliesportivo, temos a solução
+            Com mais de 40 anos de engenharia, a Vitally entende as necessidades únicas de negócios de alto fluxo, como academias e estúdios. Nossos equipamentos combinam durabilidade para uso intenso, segurança comprovada por laudo biomecânico e a performance que atrai e retém alunos avançados e personais de elite. Da musculação ao espaço funcional, temos a solução.
           </p>
         </motion.div>
 

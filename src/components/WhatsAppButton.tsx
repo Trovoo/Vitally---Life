@@ -112,10 +112,17 @@ export const WhatsAppButton = () => {
                       <SelectValue placeholder="Quero um orçamento para:" />
                     </SelectTrigger>
                     <SelectContent className="bg-white border border-gray-200 shadow-lg z-[9999] text-gray-900 rounded-md p-1 min-w-[240px] max-h-64 overflow-auto">
-                      <SelectItem value="academia-campus" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Academia para Campus</SelectItem>
-                      <SelectItem value="laboratorio" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Laboratório de Educação Física</SelectItem>
-                      <SelectItem value="espaco-fitness" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Espaço Fitness para Alunos/Professores</SelectItem>
-                      <SelectItem value="outro" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Outro</SelectItem>
+                      <SelectItem value="Escola" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Escola</SelectItem>
+                    <SelectItem value="Faculdade" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Faculdade</SelectItem>
+                      <SelectItem value="academia" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Academia</SelectItem>
+                      <SelectItem value="Stúdio" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Stúdio</SelectItem>
+                      <SelectItem value="Condomínio" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Condomínio</SelectItem>
+                      <SelectItem value="Clube" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Clube</SelectItem>
+                      <SelectItem value="Construtora" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Construtora</SelectItem>
+                      <SelectItem value="Residencial" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Residencial (academia em casa)</SelectItem>
+                      <SelectItem value="Doméstico" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Residencial (Doméstico)</SelectItem>
+                      <SelectItem value="Hotel e Resort" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Hotel e Resort</SelectItem>
+                      <SelectItem value="Orgão Público" className="cursor-pointer hover:bg-gray-100 text-gray-900 text-sm sm: px-3 py-2.5">Orgão Público</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
